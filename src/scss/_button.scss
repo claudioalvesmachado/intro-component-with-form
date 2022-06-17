@@ -1,0 +1,19 @@
+@import "./variables";
+
+.btn {
+    background-color: $clr-primary2;
+    color: $clr-neutral;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+// Button shadow
+.inner-shadow {
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.2);
+}
