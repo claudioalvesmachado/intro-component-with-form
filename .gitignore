@@ -1,6 +1,5 @@
-node_modules/
-src/scss
-src/js
+node_modules
+src
 README-template.md
 README-FM.md
 style-guide.md
